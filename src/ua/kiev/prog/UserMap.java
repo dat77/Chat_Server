@@ -36,4 +36,9 @@ public class UserMap {
         return gson.toJson(userList);
     }
 
+    public synchronized String toJSON(String user){
+        return users.get(user).toJSON();
+    }
+
+
 }

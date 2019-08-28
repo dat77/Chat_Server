@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 public class GetListServlet extends HttpServlet {
 	
 	private MessageList msgList = MessageList.getInstance();
-    private UserMap usrMap = UserMap.getInstance();
 
     @Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
@@ -38,16 +37,6 @@ public class GetListServlet extends HttpServlet {
 			//PrintWriter pw = resp.getWriter();
 			//pw.print(json);
 		}
-
-//        json = usrMap.toJSON();
-//        if (json != null) {
-//            OutputStream os = resp.getOutputStream();
-//            byte[] buf = json.getBytes(StandardCharsets.UTF_8);
-//            os.write(buf);
-//
-//            PrintWriter pw = resp.getWriter();
-//            pw.print(json);
-//        }
 
 	}
 }
