@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="78a27057-40a0-49f2-8447-449749ba7fef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chat_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chat_Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/kiev/prog/HandlerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/kiev/prog/HandlerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/kiev/prog/UserMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/kiev/prog/UserMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566990184928</updated>
       <workItem from="1566990186423" duration="6393000" />
-      <workItem from="1567015613940" duration="2051000" />
+      <workItem from="1567015613940" duration="5966000" />
     </task>
     <servers />
   </component>

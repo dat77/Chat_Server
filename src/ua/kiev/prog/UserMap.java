@@ -40,5 +40,10 @@ public class UserMap {
         return users.get(user).toJSON();
     }
 
+    public synchronized void setStatus(String userName, User.Status newStatus){
+        User user = users.get(userName);
+        user.setStatus(newStatus);
+    }
+
 
 }

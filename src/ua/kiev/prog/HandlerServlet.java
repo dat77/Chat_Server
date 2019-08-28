@@ -16,16 +16,14 @@ public class HandlerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String usersStr = req.getParameter("users");
+        String statusStr = req.getParameter("setstatus");
+        String userName = req.getParameter("username");
         String json;
         if (usersStr != null) {
             switch (usersStr) {
                 case "all":
                     json = usrMap.toJSON();
                     if (json != null) {
-//                        OutputStream os = resp.getOutputStream();
-//                        byte[] buf = json.getBytes(StandardCharsets.UTF_8);
-//                        os.write(buf);
-
                         PrintWriter pw = resp.getWriter();
                         pw.print(json);
                     }
@@ -33,16 +31,27 @@ public class HandlerServlet extends HttpServlet {
                 default:
                     json = usrMap.toJSON(usersStr);
                     if (json != null) {
-//                        OutputStream os = resp.getOutputStream();
-//                        byte[] buf = json.getBytes(StandardCharsets.UTF_8);
-//                        os.write(buf);
-
                         PrintWriter pw = resp.getWriter();
                         pw.print(json);
                     }
-
             }
         }
+        if (statusStr != null){
+            User.Status newStatus;
+            switch (statusStr){
+                case "n": newStatus = User.Status.NOTAVAILABLE; break;
+                case "d": newStatus = User.Status.DONOTDESTURB; break;
+                case "h": newStatus = User.Status.HIDDEN; break;
+                default: newStatus = User.Status.AVAILABLE;
+            }
+            usrMap.setStatus(userName, newStatus);
+            json = usrMap.toJSON(userName);
+            if (json != null) {
+                PrintWriter pw = resp.getWriter();
+                pw.print(json);
+            }
+        }
+
     }
 
     @Override
