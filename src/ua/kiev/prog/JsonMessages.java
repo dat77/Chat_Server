@@ -12,4 +12,10 @@ public class JsonMessages {
         for (int i = fromIndex; i < sourceList.size(); i++)
             list.add(sourceList.get(i));
     }
+
+    public List<Message> getList() {
+        return list;
+    }
+
+
 }

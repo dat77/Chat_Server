@@ -18,6 +18,8 @@ public class HandlerServlet extends HttpServlet {
         String usersStr = req.getParameter("users");
         String statusStr = req.getParameter("setstatus");
         String userName = req.getParameter("username");
+        //String toStr = req.getParameter("to");
+        //String msgStr = req.getParameter("message");
         String json;
         if (usersStr != null) {
             switch (usersStr) {
