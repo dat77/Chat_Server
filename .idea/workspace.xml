@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a27057-40a0-49f2-8447-449749ba7fef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/kiev/prog/GetListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/kiev/prog/GetListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/kiev/prog/HandlerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/kiev/prog/HandlerServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/kiev/prog/JsonMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/kiev/prog/JsonMessages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/kiev/prog/MessageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/kiev/prog/MessageList.java" afterDir="false" />
     </list>
@@ -39,23 +36,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/MessageList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="-51">
+              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/JsonMessages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="221">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#421#422#0" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +100,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/ua/kiev/prog/GetListServlet.java" />
         <option value="$PROJECT_DIR$/src/ua/kiev/prog/HandlerServlet.java" />
-        <option value="$PROJECT_DIR$/src/ua/kiev/prog/JsonMessages.java" />
         <option value="$PROJECT_DIR$/src/ua/kiev/prog/MessageList.java" />
+        <option value="$PROJECT_DIR$/src/ua/kiev/prog/JsonMessages.java" />
       </list>
     </option>
   </component>
@@ -275,12 +274,12 @@
       <workItem from="1566990186423" duration="6393000" />
       <workItem from="1567015613940" duration="5966000" />
       <workItem from="1567060438696" duration="126000" />
-      <workItem from="1567063487746" duration="13785000" />
+      <workItem from="1567063487746" duration="15250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13911000" />
+    <option name="totallyTimeSpent" value="15376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="17" width="1845" height="1000" extended-state="0" />
@@ -377,17 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/JsonMessages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/GetListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -397,8 +385,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/MessageList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="-51">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/kiev/prog/JsonMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

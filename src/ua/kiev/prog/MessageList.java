@@ -26,7 +26,7 @@ public class MessageList {
 
     public synchronized String toJSON(int n) {
         if (n >= list.size()) return null;
-        return gson.toJson(new JsonMessages(list, n));
+        return gson.toJson(new JsonMessages(list, n, list.size()));
     }
 
     public synchronized String toJSON(int n, String toStr) {
@@ -34,7 +34,7 @@ public class MessageList {
 
         List<Message> mylist = new LinkedList<>();
 
-//        (new JsonMessages(list, n)).getList().forEach(m -> {
+//        (new JsonMessages(list, n, list.size())).getList().forEach(m -> {
 //            if (m.getFrom().equals(toStr) ||  m.getTo() == null || m.getTo().equals(toStr) )  { mylist.add(m); }
 //        });
 
@@ -45,7 +45,7 @@ public class MessageList {
                 mylist.add(list.get(i));
             }
         }
-        return gson.toJson(new JsonMessages(mylist, 0));
+        return gson.toJson(new JsonMessages(mylist, 0, list.size()));
     }
 
 
